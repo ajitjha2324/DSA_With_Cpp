@@ -1,4 +1,3 @@
-// Online C++ compiler to run C++ program online
 #include <iostream>
 using namespace std;
 
@@ -19,7 +18,7 @@ bool isPossible(int books[], int n, int m, int mid)
             {
                 return false;
             }
-            // pageSum = books[i];
+            pageSum = books[i];
         }
     }
     return true;
